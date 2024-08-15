@@ -1,0 +1,36 @@
+/* src/App.css */
+
+/* Nulstil margin og padding for at få et mere ensartet udseende */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Tilføj en standard font til hele appen */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+/* Tilføj lidt ekstra plads rundt om wrapper-komponenterne */
+.wrapper {
+  margin-bottom: 20px;
+}
+
+/* Style knapperne */
+button {
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
